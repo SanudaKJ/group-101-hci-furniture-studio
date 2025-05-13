@@ -1,6 +1,8 @@
 package org.example.hci;
 
 
+import org.example.hci.view.LoginView;
+
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -17,6 +19,9 @@ public class Main {
         }
 
         // Launch application on the Event Dispatch Thread
-
+        SwingUtilities.invokeLater(() -> {
+            LoginView loginView = new LoginView();
+            loginView.setVisible(true);
+        });
     }
 }

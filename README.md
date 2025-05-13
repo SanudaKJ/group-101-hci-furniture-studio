@@ -50,19 +50,8 @@ For security purposes, in a production environment, it's recommended to store th
 
 1. Clone the repository
 2. Navigate to the project root directory
-3. Build the application:
-   ```
-   ./gradlew build
-   ```
-4. Run the application:
-   ```
-   ./gradlew bootRun
-   ```
-   
-   Alternatively, you can run the generated jar:
-   ```
-   java -jar build/libs/HCI-0.0.1-SNAPSHOT.jar
-   ```
+3. Run the Main.java file
+
 
 ## Test User Credentials
 
